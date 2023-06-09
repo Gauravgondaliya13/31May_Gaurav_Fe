@@ -1,0 +1,14 @@
+1)What Is Protocol?
+-> It is a set of rules that need to be followed by the communicating parties in order to have successful 
+data
+
+2)What is Domain?
+-> it is the website name
+-> A domain name is a website & address on the in internet domain name
+
+3)What is seo?
+->Serch engine optimazion
+->   seo means search engine optimaztion and is the proess used to optimize a website  
+
+4)What is Javascript?
+-> Javascript is a dyanamic computer programing language.
