@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+    <link rel="stylesheet" href="q-13.css">
+    <title>Q-13</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="header">
+            <h2 class="head">Q-13 What are the ways to integrate CSS as a web page?</h2>
+        </div>
+        <div class="answer">
+            <h2>Answer:-</h2>
+            <br>
+            <div class="answer-1">
+                <p>There are three ways to integrate CSS as a web page.</p>
+                <li>&#8611; <b>Inline:-</b>by using the style attribute inside the HTML elements.</li>
+                <li>&#8611; <b>Internak:-</b>by using &lt;style&gt; element in the &lt;head&gt; section</li>
+                <li>&#8611; <b>External:-</b>by using a &lt;link&gt; element to linkto an external CSS file.</li>
+            </div>
+            <br>
+            <div class="answer-2">
+                <h2>Inline CSS</h2>
+                <pre>
+                    &lt;h1 style="color:blue;"&gt;A Blue Heading&lt;/h1&gt;
+                </pre>
+                <br>
+                <hr>
+                <br>
+                <h2>Internal CSS</h2>
+                <pre>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html lang="en"&gt;
+                    &lt;head&gt;
+                        &lt;meta charset="UTF-8"&gt;
+                        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                        &lt;title&gt;Internal CSS&lt;/title&gt;
+                        &lt;style&gt;
+                            h1{
+                                color: red;   
+                            }
+                            p{
+                                color: blue;
+                            }
+                        &lt;/style&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;h1&gt;This is heading&lt;/h1&gt;
+                        &lt;p&gt;This is paragraph&lt;/p&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;  
+                </pre>
+                <br>
+                <hr>
+                <br>
+                <h2>External CSS</h2>
+                <h3>html</h3>
+                <pre>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html lang="en"&gt;
+                    &lt;head&gt;
+                        &lt;meta charset="UTF-8"&gt;
+                        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                        &lt;link rel="stylesheet" href="styles.css"&gt;
+                        &lt;title&gt;External CSS&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;h1&gt;This is heading&lt;/h1&gt;
+                        &lt;p&gt;This is paragraph&lt;/p&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;  
+                </pre>
+                <h3>style.css</h3>
+                <pre>
+                    h1 {
+                        color: blue;
+                      }
+                      p {
+                        color: red;
+                      }
+                </pre>
+            </div>
+        </div>
+    </div>
+    <div class="btn">
+        <button><i class="fas fa-arrow-left"></i> <a href="q-12.html">Previous</a></button>
+        <button><a href="q-14.html">Next</a> <i class="fas fa-arrow-right"></i></button>
+    </div>
+</body>
+</html>

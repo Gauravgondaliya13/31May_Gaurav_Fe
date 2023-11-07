@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.background{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+}
+h1{
+    width: 50%;
+    height: auto;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 350px;
+    font-size: 35px;  
+    
+}
+h4{
+    width: 50%;
+    height: auto;
+    color: white;
+    position: absolute;
+    top: 160px;
+    text-align: center;
+    left: 410px;
+    font-size: 25px;
+   
+}
+.slide{
+    width: 150px;
+    height: 01px;
+    background: white;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+.round{
+
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid red;
+        background-color: red;
+        position: absolute;
+        top: 244px;
+        left: 770px;
+    }
+
+.slide1{
+    width: 150px;
+    height: 01px;
+    background: white;
+    position: absolute;
+    top: 250px;
+    left: 800px;
+}
+/* wave  */
+#main1{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.background1{
+    width: 100%;
+    height: 200px;
+}
+.background1 .wave{
+    position: absolute;
+    top: -604px;
+}
+#main2{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.team-1{
+    width: 04%;
+    height: 60px;
+    position: absolute;
+    top: -450px;
+    left: 300px;
+    border-radius: 50%;
+    border: 2px solid #e74c3c;
+}
+.single_team_text{
+    width: 100%;
+    position: absolute;
+    top: -350px;
+    color: white;
+}
+.single{
+    position: absolute;
+    color: #e74c3c;
+    top: -50px !important;
+    left: -50px !important;
+}
+.team{
+    position: absolute;
+    color: white;
+    top: 04px !important;
+    left: 295px !important;
+    line-height: 2px;
+}
+.single_team_text{
+    display: none;
+}
+.team1:hover .single_team_text{
+    display: block !important   ;
+}
+/* team-2 */
+.team-2{
+    width: 04%;
+    height: 60px;
+    position: absolute;
+    top: -490px;
+    left: 500px;
+    border-radius: 50%;
+    border: 2px solid #e74c3c;
+}
+.single_team_text{
+    width: 100%;
+    position: absolute;
+    top: -350px;
+    color: white;
+}
+.single1{
+    position: absolute;
+    color: #e74c3c;
+    top: -440px !important;
+    left: 150px !important;
+}
+.founder{
+    position: absolute;
+    color: white;
+    top: -385px;
+    left: 490px;
+    line-height: 2px;
+}
+.single_team_text1{
+    display: none;
+}
+.team2:hover .single_team_text1{
+    display: block;
+}
+
+/* team-3 */
+.team-3{
+    width: 04%;
+    height: 60px;
+    position: absolute;
+    top: -520px;
+    left: 700px;
+    border-radius: 50%;
+    border: 2px solid #e74c3c;
+}
+.single_team_text{
+    width: 100%;
+    position: absolute;
+    top: -350px;
+    color: white;
+}
+.single2{
+    position: absolute;
+    color: #e74c3c;
+    top: -480px !important;
+    left: 350px !important;
+}
+.founder1{
+    position: absolute;
+    color: white;
+    top: -420px;
+    left: 700px;
+    line-height: 2px;
+}
+.single_team_text2{
+    display: none;
+}
+.team3:hover .single_team_text2{
+    display: block;
+}
+
+/* team-4 */
+.team-4{
+    width: 04%;
+    height: 60px;
+    position: absolute;
+    top: -525px;
+    left: 900px;
+    border-radius: 50%;
+    border: 2px solid #e74c3c;
+}
+.single_team_text{
+    width: 100%;
+    position: absolute;
+    top: -350px;
+    color: white;
+}
+.single3{
+    position: absolute;
+    color: #e74c3c;
+    top: -490px !important;
+    left: 550px !important;
+}
+.founder2{
+    position: absolute;
+    color: white;
+    top: -430px;
+    left: 900px;
+    line-height: 2px;
+}
+.single_team_text3{
+    display: none;
+}
+.team4:hover .single_team_text3{
+    display: block;
+}
+
+/* test-5 */
+.team-5{
+    width: 04%;
+    height: 60px;
+    position: absolute;
+    top: -500px;
+    left: 1100px;
+    border-radius: 50%;
+    border: 2px solid #e74c3c;
+}
+.single_team_text{
+    width: 100%;
+    position: absolute;
+    top: -350px;
+    color: white;
+}
+.single4{
+    position: absolute;
+    color: #e74c3c;
+    top: -460px !important;
+    left: 750px !important;
+}
+.founder3{
+    position: absolute;
+    color: white;
+    top: -400px;
+    left: 1085px;
+    line-height: 2px;
+}
+.single_team_text4{
+    display: none;
+}
+.team5:hover .single_team_text4{
+    display: block;
+}
+
+

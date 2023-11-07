@@ -1,0 +1,96 @@
+
+#main{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+   
+    
+}
+.content1{
+    width: 50%;
+    height: 700px;
+    background-color: rgb(37, 33, 33);
+    margin-left: 0.6%;
+}
+.im img{
+    width: 50%;
+    height: 700px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 1.6%;
+    top: 0%;
+}
+.content2 {
+    color: white;
+    position: relative;
+    top: 90px;
+    left: 440px; 
+}
+.content2 h1{
+    font-size: 30px;
+    
+}
+
+h3{
+    margin-left: 15%;
+    color: #e74c3c;
+}
+.line{
+    width: 5px;
+    height: 50px;
+    background: #e74c3c;
+    position: absolute;
+    top: -10px;
+    left: 250px;
+}
+.a1{
+    position: relative;
+    right: 50px;
+   color: grey;
+    
+    margin-top: 15%;
+    text-align: right;
+    font-size: 14px;
+}
+.hurt{
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 22%;
+    left: 48%;
+}
+.fa{
+    position: absolute;
+    top: 26px;
+    left: 20px;
+    color: #e74c3c;
+    
+    font-size: 30px !important;
+}
+
+.hurt1{
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 48%;
+    left: 48%;
+}
+.hurt3{
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 75%;
+    left: 48%;
+}
