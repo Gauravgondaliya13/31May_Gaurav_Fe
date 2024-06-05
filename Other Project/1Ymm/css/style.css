@@ -1,0 +1,632 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden !important;
+}
+.container {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+/* navbar */
+.logo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.nav {
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+.nav-link {
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 48% !important;
+  justify-content: end;
+}
+.navbar {
+  list-style: none;
+  display: inline-block;
+}
+a {
+  margin-right: 50px;
+  text-decoration: none !important;
+  list-style-type: none;
+  color: black !important;
+}
+/* home conatain */
+.containe1 {
+  width: 100%;
+  height: 600px;
+}
+.safe {
+  width: 45%;
+  height: 450px;
+  /* border: 2px solid black; */
+  position: absolute;
+}
+.safe {
+  background-image: url(../images/giphy.f06af283a956399b3a86.gif) !important ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 45%;
+  margin-top: 10%;
+}
+.safe img {
+  width: 56%;
+  height: auto;
+  margin-left: 150px;
+  position: absolute;
+}
+.ding {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-size: 65px;
+}
+.pera {
+  position: absolute;
+  margin-top: 21%;
+  margin-left: 10%;
+  width: 25% !important;
+}
+.menu {
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 10%;
+  border: none;
+  color: white;
+}
+.menu:hover {
+  background-color: grey !important;
+  box-shadow: 2px 2px 2px 2px black !important;
+  transition: 1s ease-in;
+}
+/* dish */
+.dish {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 1%;
+  margin-top: 2% !important;
+  margin-left: 7%;
+}
+.dish img {
+  width: 20%;
+}
+/* brekfast */
+.brekfast {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(189, 189, 189);
+  margin-top: 2%;
+  
+}
+.fast {
+  width: 350px;
+  height: 350px;
+  margin-top: 2% !important;
+  background-color: rgb(185, 45, 45);
+  margin-left: 60%;
+  border: 1px solid black !important;
+  border-radius: 80% !important;
+}
+.brek img {
+  width: 60% !important;
+  height: 450px !important;
+  margin-top: -250px;
+  margin-left: 120px;
+  z-index: -1 !important;
+}
+.card {
+  width: 28%;
+  height: 280px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  top: -100px;
+  left: 300px;
+  border: 1px solid black !important;
+  border-radius: 10% !important;
+}
+.card1{
+  /* display: none !important; */
+}
+.order {
+  width: 60%;
+  height: 50px !important;
+  margin-left: 78px !important;
+  margin-top: 2%;
+  border-radius: 500px !important;
+  color: white;
+}
+.order:hover {
+  background-color: darkblue !important;
+  transition: 2s all ease-out;
+}
+/* menu */
+.menu1 {
+  width: 100%;
+  height: 700px;
+  margin-top: 10%;
+  background-image: url(../images/6197-min.b08ae059aadb1ad80eac.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+}
+.gujarati {
+  width: 25%;
+  height: 200px;
+  align-items: center !important;
+  border: 2px solid white;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.gujarati img {
+  margin-left: 124px;
+}
+.gj {
+  margin-left: 35%;
+  margin-top: 5%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.8;
+}
+.panjabi {
+  width: 25%;
+  height: 200px;
+  align-items: center !important;
+  border: 2px solid white;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.panjabi img {
+  margin-left: 124px;
+}
+.pan {
+  margin-left: 30%;
+  margin-top: -8%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.8;
+}
+.chaines {
+  width: 25%;
+  height: 200px;
+  align-items: center !important;
+  border: 2px solid white;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.chaines img {
+  margin-left: 124px;
+}
+/* indian food */
+.india {
+  width: 100%;
+  height: 500px;
+  margin-top: 2%;
+  background-image: url(../images/indian\ food.jpg);
+  background-size: 100% 100%;
+}
+.mus {
+  margin-top: 7% !important;
+  position: absolute;
+  margin-left: 100px;
+  font-size: 30px;
+  line-height: 50px;
+}
+.foo {
+  margin-top: 10% !important;
+  position: absolute;
+  margin-left: 100px;
+  font-size: 80px;
+}
+.more {
+  margin-top: 18%;
+  width: 15%;
+  height: 40px;
+  margin-left: 160px;
+  border-radius: 20px;
+  background-color: blue;
+  outline: 2px grey;
+}
+.more:hover {
+  background-color: black;
+  color: white;
+  transition: 2s all ease;
+}
+/* footer */
+footer {
+  width: 100%;
+  height: 300px;
+  margin-top: 0.1%;
+  background-image: linear-gradient(to right, red, black);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: absolute;
+}
+.na1 {
+  width: 100%;
+  height: 200px;
+  border: 2px solid white;
+}
+.fote {
+  list-style: none;
+  line-height: 50px;
+}
+.us {
+  width: 100% !important;
+  line-height: 40px !important;
+}
+.fote:hover {
+  color: blue !important;
+}
+.contect {
+  width: 100%;
+  margin-left: 25%;
+  line-height: 40px;
+}
+.conte {
+  font-size: 25px;
+}
+.time {
+  width: 55%;
+  margin-right: 200px;
+  /* border: 2px solid white; */
+  margin-top: 05px;
+  line-height: 35px;
+}
+.mon {
+  margin-right: 0px;
+  font-size: 15px;
+}
+
+/* About us */
+/* nav */
+
+.abou {
+  width: 100%;
+  height: 300px;
+  /* background: url(../images/about-1.avif); */
+  /* background-size: 100% 100%;   */
+}
+
+.abou img {
+  width: 100%;
+  filter: brightness(0.5);
+  height: 450px;
+  position: relative;
+  margin-top: 4.5%;
+}
+ .ab {
+  position: absolute;
+  top: 150px;
+  left: 600px;
+  font-size: 80px !important;
+  color: white;
+} 
+/* dish */
+.fauv {
+  margin-top: 15%;
+  width: 100%;
+  height: 600px;
+  /* border: 2px solid black; */
+  position: relative;
+  line-height: 2%;
+  /* margin-top: 0%; */
+}
+.fauv img {
+  width: 50%;
+  height: 240px;
+
+  
+}
+.box1{
+    width: 45%;
+    
+}
+.fauv img:hover {
+  transition: 2s all ease-in;
+  scale: 2s ease all;
+}
+.dish img {
+  margin-top: 5%;
+ 
+}
+.box{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    margin-left: 40%;
+    top: -0%;
+    margin-top: 5%; 
+}
+.us{
+    font-family: cursive;
+    color: red;
+}
+.tem{
+   position: absolute; 
+   top: 30%;
+   left: 40%;
+}
+.tem1{
+    position: absolute; 
+    top: 33.5%;
+    left: 40%;
+ }
+ @media only screen and (min-width: 320px) and (max-width: 480px) {
+  .logo {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    width: 20%;
+    /* margin-left: 50% !important;
+          border: 2px solid black; */
+  }
+  .nav {
+    width: 100% !important;
+    height: 150px;
+    position: relative !important;
+  }
+
+  .navbar {
+    width: 50%;
+    list-style: none;
+    display: block;
+  }
+  a {
+    text-decoration: none !important;
+    list-style-type: none !important;
+    color: black !important;
+  }
+  /* home conatain */
+  .containe1 {
+    width: 100%;
+    height: 80px !important;
+  }
+  
+  .safe {
+    width: 100% !important;
+    height: 550px !important;
+    position: absolute;
+  }
+  .safe {
+    
+    background-image: url(../images/giphy.f06af283a956399b3a86.gif) !important ;
+    background-repeat: no-repeat !important;
+    background-size: 50% 50% !important;
+    margin-top: 20% !important;
+  }
+  .safe img{
+    width: 30% !important;
+    height: 30% !important;
+    position: absolute !important;
+    right: 63% !important;
+    top: -0% !important;
+  }
+  
+  .ding {
+    width: 100% !important;
+    position: absolute;
+    margin-top: 10% !important;
+    font-size: 30px !important;
+  }
+  .pera {
+  margin-top: 35% !important;
+    font-size: 10px;
+
+    /* border: 2px solid black; */
+  }
+  .menu {
+    width: 120px !important;
+    height: 30px !important;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 280px !important;
+    border: none;
+    color: white;
+    
+  }
+
+  /* dish */
+  .dish {
+    width: 100%;
+    height: 180px;
+    margin-top: 380px !important;
+  }
+  .dish img {
+    width: 20%;
+  }
+  /* brekfast */
+  .brekfast {
+    width: 100% !important;
+    height: 00px !important;
+    background-color: rgb(189, 189, 189);
+    margin-top: 2% !important;
+  }
+  .fast {
+    width: 120px;
+    height: 120px;
+    margin-top: 2% !important;
+    background-color: rgb(185, 45, 45);
+    margin-left: 60%;
+    border-radius: 50%;
+  }
+  .brek img {
+    width: 85% !important;
+    height: 280px !important;
+    margin-top: -70px;
+    margin-left: 8px !important;
+  }
+ .card{
+ display: none !important;
+ }
+ .card1{
+  width: 95% !important;
+  margin-left: 2%;
+  height: 270px !important;
+  margin-top: 3%;
+  border: 1px solid black !important;
+  border-radius: 10% !important;
+  justify-content: center;
+ }
+  .order {
+    width: 60%;
+    height: 50px !important;
+    margin-left: 65px !important;
+    margin-top: 5%;
+    border-radius: 500px !important;
+    color: white;
+  }
+  .order:hover {
+    background-color: darkblue !important;
+    transition: 2s all ease-out;
+  }
+  /* menu */
+  .menu1 {
+    width: 100%;
+    height: 700px;
+    margin-top: 10%;
+    background-image: url(../images/6197-min.b08ae059aadb1ad80eac.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .gujarati {
+    width: 80%;
+    height: 200px;
+    align-items: center !important;
+    border: 2px solid white;
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+
+  .gujarati img {
+    margin-left: 120px !important;
+  }
+  .gj {
+    display: none !important;
+  }
+  .panjabi {
+    width: 80%;
+    height: 200px;
+    align-items: center !important;
+    border: 2px solid white;
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+  .panjabi img {
+    margin-left: 120px;
+  }
+  .pan {
+    display: none !important;
+  }
+  .chaines {
+    width: 80%;
+    height: 200px;
+    align-items: center !important;
+    border: 2px solid white;
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+  .chaines img {
+    margin-left: 120px;
+  }
+  /* indian food */
+  .india {
+    width: 100%;
+    height: 500px;
+    margin-top: 2%;
+    background-image: url(../images/indian\ food.jpg);
+    background-size: 100% 100%;
+  }
+  .mus {
+    width: 100%;
+    margin-top: 35% !important;
+    position: absolute;
+    margin-left: 15px;
+    font-size: 25px !important;
+    line-height: 60px !important;
+  }
+  .foo {
+    margin-top: 50% !important;
+    position: absolute;
+    margin-left: 15px;
+    font-size: 30px;
+  }
+  .more {
+    margin-top: 75% !important;
+    width: 50% !important;
+    height: 40px;
+    margin-left: 30px !important;
+    border-radius: 20px;
+    background-color: blue;
+    outline: 2px grey;
+  }
+  .more:hover {
+    background-color: black;
+    color: white;
+    transition: 2s all ease;
+  }
+  /* footer */
+  footer {
+    width: 100%;
+    height: 600px !important;
+    margin-top: 0.5%;
+    margin-left: 1% !important;
+    background-image: linear-gradient(to right, red, black);
+   
+  }
+  .na1 {
+    width: 100%;
+    height: 300px;
+    
+  }
+  .fote {
+    list-style: none;
+    line-height: 25px;
+  }
+  .usa {
+    width: 100% !important;
+    line-height: 40px !important;
+  }
+  .fote:hover {
+    color: blue !important;
+  }
+  .foter{
+    display: block !important;
+  }
+  .contect {
+    width: 100% !important;
+    margin-left: 8% !important;
+    line-height: 40px;
+  }
+  .conte {
+    font-size: 25px;
+  }
+  .time {
+    width: 55%;
+    margin-left:08% !important ;
+
+    margin-top: 05px;
+    line-height: 35px;
+  }
+  .mon {
+    margin-right: 0px;
+    font-size: 15px;
+  }
+}
