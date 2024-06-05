@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="main.js"></script>
+    <!-- Bootstrep css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstreo js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrep icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- internal css -->
+    <!-- <link rel="stylesheet" href="./style/style.css"> -->
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section>
+      <nav class="nav navbar navbar-expand-md bg-dark">
+        <a href="#" class="nav-link text-white fs-2">Carosel</a>
+        <button
+          type="button"
+          class="navbar-toggler btn btn-sm bg-white"
+          data-bs-toggle="collapse"
+          data-bs-target="#btn"
+        >
+          <span
+            class="navbar-toggler-icon text-white bi bi-list text-dark bg-white"
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="btn">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white hover-filled-slide-down" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">Dasbored</a>
+            </li>
+          </ul>
+          <div class="col d-flex justify-content-end me-5">
+            <input
+              type="search"
+              name=""
+              id=""
+              placeholder="Search"
+              class="w-25"
+            />
+        
+            <button type="button"  class="ms-1 bg-dark text-success p-1 ">
+              Search
+            </button>
+    
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!--Slider  -->
+    <section>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel "
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/1.jpeg"  class="d-block w-100" alt="..." style="height: 400px;" />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/2.jpg" class="d-block w-100" alt="..." style="height: 400px;"/>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/3.jpg" width="50%" class="d-block w-100" alt="..."style="height: 400px;" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Contaner -->
+    <section class="mt-5">
+      <div class="row">
+        <div class="round text-center col-md-3 mx-auto">
+            <img class="w-25 h-25 rounded-circle img-fluid center-block d-block mx-auto img-responsive" src="./Images/2.jpg" alt=""/>
+          <!-- <div class="rounded-circle w-25 h-50 bg-secondary mx-auto"></div> -->
+          <h3 class="text-center">Heading</h3>
+          <p class="text-center w-100">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa iusto
+            dolore, aut voluptatibus, eaque hic, quam at commodi libero ipsum
+            expedita. Facilis illum dolore nemo sint tempora repellendus unde
+            nam?
+          </p>
+          <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+          <button type="button" class="">View Details</button>
+        </div>
+        <div class="col-md-3 text-center mx-auto">
+          <!-- <div class="rounded-circle w-25 h-50 bg-secondary mx-auto"></div> -->
+          <img class="rounded-circle w-25 h-25 img-fluid center-block d-block mx-auto img-responsive" src="./Images/1.jpeg" alt="" />
+          <h3 class="text-center">Heading</h3>
+          <p class="text-center w-100">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa iusto
+            dolore, aut voluptatibus, eaque hic, quam at commodi libero ipsum
+            expedita. Facilis illum dolore nemo sint tempora repellendus unde
+            nam?
+          </p>
+          <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+          <button type="button" class="">View Details</button>
+        </div>
+        <div class="round col-md-3 text-center  mx-auto">
+          <!-- <div class="rounded-circle w-25 h-50 bg-secondary mx-auto"></div> -->
+          <img
+            class="w-25 h-25  rounded-circle img-fluid center-block d-block mx-auto img-responsive"
+            src="./Images/3.jpg"
+            alt=""
+          />
+          <h3 class="text-center">Heading</h3>
+          <p class="text-center w-100">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa iusto
+            dolore, aut voluptatibus, eaque hic, quam at commodi libero ipsum
+            expedita. Facilis illum dolore nemo sint tempora repellendus unde
+            nam?
+          </p>
+
+          <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+          <button type="button" class=" ">View Details</button>
+        </div>
+      </div>
+    </section>
+    <!-- sidebar -->
+    <hr class="w-100 mx-auto" />
+    <section class="">
+      <div class="row">
+        <div class="col-md-5 mx-auto">
+          <h3 class="text-secondary">
+            First featurette heading. it'|| <br />
+            blow your mind.
+          </h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+            dolor distinctio velit voluptatibus esse nihil sapiente neque fuga,
+            at eius aliquid excepturi ab eum laudantium voluptatem ducimus
+            dicta. Maiores, praesentium.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="./Images/1.jpeg" alt="" width="80%" height="200px" />
+        </div>
+
+        <div class="col-md-5 mt-2 mx-auto">
+          <img src="./Images/2.jpg" alt="" width="80%" height="200px" />
+        </div>
+        <div class="col-md-5 mt-5">
+          <h3 class="text-secondary">
+            Oh yeah,it's that good. see <br />
+            for yourself.
+          </h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+            impedit quidem ullam facilis est temporibus repellat. Quaerat
+            aspernatur libero sed tempore eos facilis praesentium, repudiandae
+            rem voluptas sit eaque itaque!
+          </p>
+        </div>
+
+        <div class="col-md-5 mt-5 mx-auto">
+          <h3 class="text-secondary">
+            And lastly,this one. <br />
+            Checkmate
+          </h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+            dolor distinctio velit voluptatibus esse nihil sapiente neque fuga,
+            at eius aliquid excepturi ab eum laudantium voluptatem ducimus
+            dicta. Maiores, praesentium.
+          </p>
+        </div>
+        <div class="col-md-5 mt-5">
+          <img src="./Images/3.jpg" alt="" width="80%" height="200px" />
+        </div>
+      </div>
+    </section>
+
+<hr>
+    <section>
+        <footer>
+        <p class="ms-5">
+            @ 2017-2018 Comapny.inc. <a href="#">Privacy.Terms</a>
+            <a href="#" class="nav-link d-flex justify-content-end">Back To Top</a>
+        </p>
+      
+    </footer>
+    </section>
+  </body>
+</html>
