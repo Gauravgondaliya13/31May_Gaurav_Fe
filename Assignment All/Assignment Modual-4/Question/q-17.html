@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+    <link rel="stylesheet" href="q-17.css">
+    <title>Q-17</title>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="header">
+            <h2 class="head">Q-17 What is the meaning of the CSS selector?</h2>
+        </div>
+        <div class="answer">
+            <h2>Answer:-</h2>
+            <br>
+            <div class="answer-1">
+                <p>&#8611; A CSS selector means it will selects the HTML elements you want to style.</p>
+                <p>&#8611; There are differnet types of CSS selector there are as folows:-</p>
+                <br>
+                <h4><u>Child selector</u></h4>
+                <pre>
+                    ul > li {
+                        - Styles applied to all &lt;li&gt; elements that are direct children of a &lt;ul&gt;.
+                        - It use &gt; sign and space to select child element.
+                        }
+                </pre>
+                <br>
+                <hr>
+                <br>
+                <h4><u>Class selector</u></h4>
+                <pre>
+                    .container {
+                        - Styles applied to all class = "container" element.
+                        - class selector is select by using <b>.container</b>. 
+                        }
+                </pre>
+                <br>
+                <hr>
+                <br>
+                <h4><u>Id selector</u></h4>
+                <pre>
+                    #cointainer {
+                        - Styles applied to all id="main" element.
+                        - Id selector is select using <b>#container</b>.
+                        }
+                </pre>
+                <br>
+                <hr>
+                <br>
+                <h4><u>Element selector</u></h4>
+                <pre>
+                    div {
+                        - Styles applied to all the &lt;div&gt; elements.
+                        - Element selector is select using element name.
+                        }
+                </pre>
+                <br>
+                <hr>
+                <br>
+                <h4><u>Universal selector</u></h4>
+                <pre>
+                    * {
+                        - Styles applied to all elements
+                        - Universal selector is select by using <b>*</b>.
+                        }
+                </pre>
+                <br>
+                <hr>
+                <br>
+                <h4><u>Group selector</u></h4>
+                <pre>
+                    p, div, h1 {
+                        - Styles applied to all elements we have to style.
+                        - Group selector is select by using <b>,</b>.
+                        - We can select multiple class, multiple id, multiple element.
+                        }
+                </pre>
+                <br>
+                <hr>
+                <br>
+                <h4><u>General-sibling selector</u></h4>
+                <pre>
+                    h1 ~ p {
+                        - Styles applied to &lt;p&gt; element that are sibling of &lt;h1&gt; element.
+                        - general-sibling selector is selct by using <b>~</b>.
+                        }
+                </pre>
+                <br>
+                <hr>
+                <br>
+                <h4><u>Adjsent-sibling selector</u></h4>
+                <pre>
+                    h1 + p {
+                        - Styles applied to directly after the specific element.
+                        - Adjsent-sibling selector is selct by using <b>+</b>.
+                        }
+                </pre>
+                <br>
+                <hr>
+                <br>
+                <h3><u>Pseudo selector:-</u></h3>
+                <h4>- Pseudo class</h4>
+                <pre>
+                    .container:hover {
+                        - Styles applied to the class="container" element.
+                        - The pseudo class is select using <b>:</b>.
+                        - There are different type of pseudo class there are 
+                        <b>focus</b>, <b>active</b>, <b>visited</b>, <b>n-th child()</b>.
+                        }
+                </pre>
+                <h4>- Pseudo Element</h4>
+                <pre>
+                    .container::after {
+                        - Styles applied to class="container" element.
+                        - The pseudo element is select using <b>::</b>.
+                        - There are different type of  pseudo element there are 
+                        <b>after</b>, <b>before</b>, <b>first-letter</b>, <b>first-line</b>, <b>placeholder</b>, <b>selection</b>
+                        }
+                </pre>
+            </div>
+        </div>
+    </div>
+    <div class="btn">
+        <button><i class="fas fa-arrow-left"></i> <a href="q-16.html">Previous</a></button>
+        <button><a href="q-18.html">Next</a> <i class="fas fa-arrow-right"></i></button>
+    </div>
+</body>
+
+</html>
