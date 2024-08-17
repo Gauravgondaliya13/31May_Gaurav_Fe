@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .centered-div {
+    width: 600px; /* Set your desired width */
+    height: 250px; /* Set your desired height */
+    background-color: greenyellow; /* Just for visual reference */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+   
+    
+  }
+  .centered-div h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+  }
+  li{
+    background-color: white;
+    margin-bottom: 7px;
+    list-style: none;
+    width: 300px;
+
+   
+    
+    
+  }
+  .inlinediv{
+    display: flex;
+    flex-direction: row;
+  }
+  
