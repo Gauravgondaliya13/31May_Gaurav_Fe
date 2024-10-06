@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>What is Pure Component? When to use Pure Component over Component?</h1>
+    <ul>
+        <li>Pure Components are a subclass of class components provided by React. They come with a built-in optimization to prevent unnecessary re-renders. Pure Components implement a shouldComponentUpdate method, which performs a shallow comparison of the components props and state. If the new props and state are shallowly equal to the previous props and state, the component wont re-render, thereby optimizing performance.</li>
+        <br>
+        <li><b>Performance Optimization:</b> Pure Components optimize performance by preventing unnecessary re-renders, resulting in improved rendering performance and reduced resource consumption.</li>
+        <br>
+        <li><b>Simplified Logic:</b> With Pure Components, developers can avoid manual implementation of shouldComponentUpdate, leading to cleaner and more concise code.</li>
+        <br>
+        <li><b>Ease of Use:</b> Pure Components can be used out of the box without additional configuration or setup, simplifying the development process.</li>
+        <br>
+        <li><b>Maintainability:</b> Pure Components help maintain a consistent UI state by automatically managing re-renders based on shallow comparisons of props and state.</li>
+    </ul>
+
+</body>
+</html>

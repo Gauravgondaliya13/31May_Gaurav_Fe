@@ -1,0 +1,54 @@
+{
+  "users-auth": [
+    {
+      "id": "1c8d",
+      "email": "bkpandey.pandey@gmail.com",
+      "password": "123456",
+      "username": "brijesh1990",
+      "phone": "9998003879",
+      "address": "reajkot"
+    },
+    {
+      "id": "59a5",
+      "email": "arpanapandey423@gmail.com",
+      "password": "123456",
+      "username": "arpna1992",
+      "phone": "9998003879",
+      "address": "ahemdabad"
+    }
+  ],
+  "contact-us": [
+    {
+      "id": "4e21",
+      "name": "brijesh",
+      "email": "bkpandey.pandey@gmail.com",
+      "subject": "hi",
+      "phone": "99980038798",
+      "message": "hello please send customer care number"
+    },
+    {
+      "id": "235c",
+      "name": "rajesh",
+      "email": "rajesh@gmail.com",
+      "subject": "hi",
+      "phone": "99980038798",
+      "message": "hello please send customer care number"
+    },
+    {
+      "id": "43b2",
+      "name": "rageshri",
+      "email": "rageshri@gmail.com",
+      "subject": "hi",
+      "phone": "99984212121",
+      "message": "hi"
+    },
+    {
+      "id": "9842",
+      "name": "kayum",
+      "email": "kayumkadivar09@gmail.com",
+      "subject": "24x7 customer support",
+      "phone": "9998003879",
+      "message": "hey please send me customer care numbers"
+    }
+  ]
+}
