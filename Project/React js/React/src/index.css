@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(255, 204, 0) !important; */
+}
+/* Navbar */
+
+/* headr */
+.Round {
+  width: 800px;
+  height: 800px;
+  border: 100px solid rgb(22, 82, 127);
+  margin-left: 25%;
+  border-radius: 400px;
+  position: relative;
+  top: -120px;
+}
+.Tealogy {
+  position: absolute;
+  top: 45px;
+  margin-left: 40%;
+}
+.tealog {
+  width: 5%;
+  position: absolute;
+  top: 95px;
+  left: 20%;
+}
+.TeaHad {
+  position: relative;
+  font-size: 80px;
+  margin-left: 15%;
+  color: white;
+  margin-top: -40%;
+  z-index: 1;
+}
+.frenc {
+  position: absolute;
+  font-size: 80px;
+  margin-left: 58%;
+  margin-top: -5%;
+  color: white;
+}
+
+
+/* Our Presence */
+
